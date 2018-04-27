@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="150dp"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:background="#FFFF00"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"/>
+        <LinearLayout
+            android:background="#B2FF59"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"/>
+        <LinearLayout
+            android:background="#00BCD4"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"/>
+        <LinearLayout
+            android:background="#0277BD"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"/>
+        <LinearLayout
+            android:background="#9C27B0"
+            android:layout_width="35dp"
+            android:layout_height="match_parent"/>
+        <LinearLayout
+            android:background="#FF80AB"
+            android:layout_width="35dp"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <ImageView
+        android:layout_marginRight="0dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/main_logo" />
+
+</RelativeLayout>
